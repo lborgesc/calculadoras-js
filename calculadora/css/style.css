@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BA55D3;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.calc i {
+    color: blue;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+input,
+select,
+button {
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #9400D3;
+}
+
+.calc input {
+    margin-bottom: 20px;
+    text-align: center;
+    height: 25px;
+}
+
+.calc select {
+    margin-bottom: 20px;
+    height: 25px;
+    text-align-last: center;
+}
+
+.calc select option {
+
+    text-align: center;
+}
+
+.calc input::placeholder {
+    color: white;
+
+}
+
+.calc button {
+    margin-bottom: 20px;
+    text-align: center;
+    height: 25px;
+    background-color: #8B008B;
+}
+
+.enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+    height: 100px;
+
+}
+
+.enviar button {
+    margin-bottom: 20px;
+    text-align: center;
+    height: 25px;
+    background-color: #8B008B;
+
+}
